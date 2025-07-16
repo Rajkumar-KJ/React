@@ -1,4 +1,5 @@
 import React from 'react'
+import './App.css'
 
 function Add() {
 
@@ -12,11 +13,14 @@ function Add() {
     }
 
   return (
-    <div>
+    <div id='add-div'>
+        
         <input type='number' id='num1'></input>
         <input type='number' id='num2'></input>
-        <button onClick={Sum} >click</button>
+        <button onClick={Sum} >Add</button>
         <p id='out'></p>
+        
+        
     </div>
   )
 }

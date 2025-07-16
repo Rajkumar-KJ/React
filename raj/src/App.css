@@ -4,7 +4,42 @@
   text-align: center;
   height: 50px;
 }
+#div2{
+  border:2px solid black;
+}
 
+#div1{
+  height:500px;
+  width: 500px;
+  transition:0.9s;
+  font-size:200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+#btn1{
+  padding: 20px;
+  background-color: aqua;
+  border-radius:5px;
+  margin-top:10px;
+  width:100px;
+  font-size:20px;
+}
+
+#add-div{
+  border: 3px solid black;
+  width:500px;
+  display: flex;
+  flex-direction:column;
+  padding: 10px;
+ 
+  align-items: center;
+
+}
 
 @keyframes App-logo-spin {
   from {

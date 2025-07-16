@@ -6,7 +6,7 @@ function State() {
   return (
     <div>
         <p>name:{name}</p>
-        <button onClick={() => setname("RAJ KUMAR")}>ckick</button>
+        <button onClick={() => setname("RAJ KUMAR")}>click</button>
         <p>age:{age}</p>
         <button onClick={() => setage(age+1)}>click</button>
     </div>

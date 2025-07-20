@@ -8,6 +8,8 @@ import State from './state';
 import Condition from './condition';
 import Para from './Para';
 import Home from './Home';
+import ToggleComponent from './Toggle';
+import Counter from './useEffect';
 import { BrowserRouter, Routes, Route, Router, Link } from 'react-router-dom';
 
 
@@ -38,6 +40,8 @@ return(
  <State/>
  <Condition/>
  <Para/>
+ <ToggleComponent/>
+ <Counter/>
   </BrowserRouter>
 ); 
 }
